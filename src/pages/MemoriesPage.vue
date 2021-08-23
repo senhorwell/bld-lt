@@ -1,38 +1,16 @@
 <template>
     <base-layout page-title="BLD Logistica">
-        <ion-list>
-            <ion-item
-                v-for="memory in memories"
-                :router-link="`/memories/${memory.id}`"
-                :key="memory.id"
-                >
-                <ion-thumbnail slot="start">
-                    <ion-img :src="memory.image" :alt="memory.title"></ion-img>
-                </ion-thumbnail>
-                <ion-label>
-                    {{memory.title}}
-                </ion-label>
-                </ion-item>
-        </ion-list>
+        <memories-list :memories="memories"></memories-list>
     </base-layout>
 </template>
 
 <script>
 
-import {    IonList,
-            IonItem,
-            IonImg,
-            IonThumbnail,
-            IonLabel
-            } from '@ionic/vue';
+import MemoriesList from '../components/memories/MemoriesList.vue';
 
 export default {
     components: {
-        IonList,
-        IonItem,
-        IonImg,
-        IonThumbnail,
-        IonLabel
+        MemoriesList
     },
     computed: {
         memories() {
