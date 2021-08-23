@@ -1,0 +1,7 @@
+{
+  "name": "BLD-LT",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
