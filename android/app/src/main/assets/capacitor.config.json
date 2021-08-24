@@ -1,0 +1,6 @@
+{
+	"appId": "com.bld.lt",
+	"appName": "BLD LT",
+	"webDir": "public",
+	"bundledWebRuntime": false
+}

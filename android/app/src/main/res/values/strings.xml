@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BLD LT</string>
+    <string name="title_activity_main">BLD LT</string>
+    <string name="package_name">com.bld.lt</string>
+    <string name="custom_url_scheme">com.bld.lt</string>
+</resources>

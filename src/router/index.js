@@ -4,7 +4,7 @@ import MemoriesPage from '../pages/MemoriesPage.vue';
 const routes = [
   {
     path: '/',
-    redirect: '/home'
+    redirect: '/memories'
   },
   {
     path: '/memories',
