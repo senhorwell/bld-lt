@@ -1,5 +1,5 @@
 <template>
-    <base-layout page-title="Adicionar uma memória" page-default-back-link="/memories">
+    <base-layout page-title="Adicionar um caminhão" page-default-back-link="/memories">
     <create-memory-form @save-memory="saveMemory"></create-memory-form>
     </base-layout>
 </template>

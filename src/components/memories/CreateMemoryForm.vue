@@ -2,11 +2,11 @@
     <form class="ion-padding" @submit.prevent="submitForm">
        <ion-list>
           <ion-item>
-            <ion-label position="floating">Title</ion-label>
+            <ion-label position="floating">Nome</ion-label>
             <ion-input type="text" required v-model="enteredTitle" />
           </ion-item>
           <ion-item>
-            <ion-label position="floating">Imagem</ion-label>
+            <ion-label position="floating">Link da imagem</ion-label>
             <ion-input type="url" required v-model="enteredImageUrl" />
           </ion-item>
           <ion-item>

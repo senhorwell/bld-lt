@@ -6,27 +6,15 @@ const store = createStore({
       memories: [
         {
             id:'1',
-            image: "https://www.hypeness.com.br/1/2019/10/cenas-surreais-animais-e-natureza-6.jpg",
-            title:'A trip into the mountains',
-            description:'It was a really nice trip!'
+            image: "https://cdn.autopapo.com.br/box/uploads/2021/01/19224834/caminhao-volvo-fh-pode-ser-lancado-no-brasil-em-2021-scaled.jpg",
+            title:'Caminhão adicionado via dados',
+            description:'Caminhão 2013 em ótimo estado'
         },
         {
             id:'2', 
-            image: "https://www.hypeness.com.br/1/2019/10/cenas-surreais-animais-e-natureza-5.jpg",
-            title:'A trip into the mountains 2',
-            description:'It was a really nice trip!'
-        },
-        {
-            id:'3', 
-            image: "https://www.hypeness.com.br/1/2019/10/cenas-surreais-animais-e-natureza-4.jpg",
-            title:'A trip into the mountains 3',
-            description:'It was a really nice trip!'
-        },
-        {
-            id:'4', 
-            image: "https://www.hypeness.com.br/1/2019/10/cenas-surreais-animais-e-natureza-2.jpg",
-            title:'A trip into the mountains 4',
-            description:'It was a really nice trip!'
+            image: "https://i1.wp.com/trucao.com.br/wp-content/uploads/2020/09/caminhao_mais_potente_destaque.jpg?fit=1920%2C1080&ssl=1",
+            title:'Caminhão 2013',
+            description:'Em ótimo estado'
         },
       ]
     };
